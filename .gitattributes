@@ -1,0 +1,44 @@
+# -------------------------------------------------------
+# Language detection fixes for GitHub Linguist
+# -------------------------------------------------------
+
+# Unity auto-generated metadata — exclude from language stats entirely
+*.meta linguist-generated
+
+# Unity scene and prefab files — tell GitHub these are Unity3D assets, not Wolfram
+*.unity linguist-language=Unity3D Asset linguist-detectable=true
+*.prefab linguist-language=Unity3D Asset linguist-detectable=true
+
+# Other Unity data files — generated, exclude from stats
+*.asset linguist-generated
+*.mat linguist-generated
+*.anim linguist-generated
+*.controller linguist-generated
+
+# Input actions config is just JSON
+*.inputactions linguist-language=JSON
+
+# -------------------------------------------------------
+# Binary files — prevent git from trying to diff these
+# -------------------------------------------------------
+*.fbx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.tga binary
+*.psd binary
+
+# -------------------------------------------------------
+# Line endings — keep consistent across Windows/Mac/Linux
+# -------------------------------------------------------
+* text=auto
+*.cs text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.json text eol=lf
+*.md text eol=lf

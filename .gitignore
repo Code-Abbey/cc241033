@@ -1,0 +1,27 @@
+# Unity generated folders — no need to track these, Unity rebuilds them automatically
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+
+# Visual Studio / Rider files
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+.DS_Store
+
+# Third-party Asset Store content — download from the Unity Asset Store directly
+Assets/AssetStore/
+
+# JetBrains
+.idea/
+*.sln.iml

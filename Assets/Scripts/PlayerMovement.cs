@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (SpawnData.TargetSpawnId < 0) return;
 
-        foreach (var point in FindObjectsOfType<SpawnPoint>())
+        foreach (var point in FindObjectsByType<SpawnPoint>(FindObjectsSortMode.None))
         {
             if (point.id == SpawnData.TargetSpawnId)
             {

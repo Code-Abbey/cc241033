@@ -38,7 +38,7 @@ The focus was on understanding how Unity's Input System, Rigidbody physics, and 
 ## How to run it
 
 1. Clone this repo
-2. Open the folder in **Unity 2022.3+** (URP project)
+2. Open the folder in **Unity 6 (6000.3.10f1)** with the Universal 3D template
 3. Download the required Asset Store packages listed below and import them into `Assets/AssetStore/`
 4. Open `Assets/Scenes/Outdoor.unity` and hit Play
 

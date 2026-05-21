@@ -6,7 +6,7 @@
 | **Programme** | Creative Computing (BCC) |
 | **University** | USTP — University of Applied Sciences St. Pölten |
 | **Student ID** | cc241033 |
-| **Engine** | Unity 6 (6000.3.10f1) · Universal Render Pipeline |
+| **Engine** | Unity 6 (6000.3.10f1) · Universal 3D template (URP) |
 
 ---
 

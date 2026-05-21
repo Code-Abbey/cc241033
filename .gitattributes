@@ -14,6 +14,7 @@
 *.mat linguist-generated
 *.anim linguist-generated
 *.controller linguist-generated
+*.wlt linguist-generated
 
 # Input actions config is just JSON
 *.inputactions linguist-language=JSON
